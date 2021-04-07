@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		2F6D3AE9261C3E150025B73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3AE8261C3E150025B73E /* AppDelegate.swift */; };
 		2F6D3AEB261C3E150025B73E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3AEA261C3E150025B73E /* SceneDelegate.swift */; };
-		2F6D3AED261C3E150025B73E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3AEC261C3E150025B73E /* ViewController.swift */; };
 		2F6D3AF0261C3E150025B73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D3AEE261C3E150025B73E /* Main.storyboard */; };
 		2F6D3AF2261C3E2C0025B73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D3AF1261C3E2C0025B73E /* Assets.xcassets */; };
 		2F6D3AF5261C3E2C0025B73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D3AF3261C3E2C0025B73E /* LaunchScreen.storyboard */; };
+		2F6D3AFF261C574E0025B73E /* QuestionInitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3AFE261C574E0025B73E /* QuestionInitial.swift */; };
+		2F6D3B01261C5D3B0025B73E /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3B00261C5D3B0025B73E /* Answer.swift */; };
+		2F6D3B03261C5F500025B73E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3B02261C5F500025B73E /* QuestionViewController.swift */; };
+		2F6D3B05261C5FC10025B73E /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3B04261C5FC10025B73E /* AnswerViewController.swift */; };
+		2F6D3B07261C67FE0025B73E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D3B06261C67FE0025B73E /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F6D3AE5261C3E150025B73E /* Qna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6D3AE8261C3E150025B73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F6D3AEA261C3E150025B73E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F6D3AEC261C3E150025B73E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F6D3AEF261C3E150025B73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F6D3AF1261C3E2C0025B73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6D3AF4261C3E2C0025B73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F6D3AF6261C3E2C0025B73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6D3AFE261C574E0025B73E /* QuestionInitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionInitial.swift; sourceTree = "<group>"; };
+		2F6D3B00261C5D3B0025B73E /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		2F6D3B02261C5F500025B73E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2F6D3B04261C5FC10025B73E /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		2F6D3B06261C67FE0025B73E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				2F6D3AE8261C3E150025B73E /* AppDelegate.swift */,
 				2F6D3AEA261C3E150025B73E /* SceneDelegate.swift */,
-				2F6D3AEC261C3E150025B73E /* ViewController.swift */,
+				2F6D3B02261C5F500025B73E /* QuestionViewController.swift */,
+				2F6D3B04261C5FC10025B73E /* AnswerViewController.swift */,
 				2F6D3AEE261C3E150025B73E /* Main.storyboard */,
+				2F6D3AFE261C574E0025B73E /* QuestionInitial.swift */,
+				2F6D3B06261C67FE0025B73E /* Question.swift */,
+				2F6D3B00261C5D3B0025B73E /* Answer.swift */,
 				2F6D3AF1261C3E2C0025B73E /* Assets.xcassets */,
 				2F6D3AF3261C3E2C0025B73E /* LaunchScreen.storyboard */,
 				2F6D3AF6261C3E2C0025B73E /* Info.plist */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F6D3AED261C3E150025B73E /* ViewController.swift in Sources */,
+				2F6D3B05261C5FC10025B73E /* AnswerViewController.swift in Sources */,
+				2F6D3AFF261C574E0025B73E /* QuestionInitial.swift in Sources */,
+				2F6D3B03261C5F500025B73E /* QuestionViewController.swift in Sources */,
+				2F6D3B01261C5D3B0025B73E /* Answer.swift in Sources */,
 				2F6D3AE9261C3E150025B73E /* AppDelegate.swift in Sources */,
+				2F6D3B07261C67FE0025B73E /* Question.swift in Sources */,
 				2F6D3AEB261C3E150025B73E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGQW468FVZ;
 				INFOPLIST_FILE = Qna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.Billy.Qna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGQW468FVZ;
 				INFOPLIST_FILE = Qna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.Billy.Qna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
